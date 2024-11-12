@@ -89,18 +89,18 @@ body > span {
 }
 .container .card.children .box {
   width: 50%;
+  float: left;
+  padding: 0px 10px;
 }
 .container .card.children .box img {
   width: 100%;
   border: 1px solid #fff;
   box-sizing: border-box;
-  margin-left: 15px;
 }
 .container .card.children .box .text-box {
   background: rgba(255, 0, 0, 0.6);
   font-family: "alfa-slab-one";
   color: #fff;
-  margin-left: 15px;
   text-align: center;
   width: 100%;
 }
