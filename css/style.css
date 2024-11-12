@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "alfa-slab-one";
+  src: url("AlfaSlabOne-Regular.ttf") format("truetype");
+}
+body {
+  background: url(../img/fond.webp);
+  background-size: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+body .clear {
+  clear: both;
+}
+body hr {
+  padding: 0px;
+  margin: 0px;
+}
+body > span {
+  background-color: black;
+  color: #fff;
+  padding: 0px 1rem;
+  font-family: "alfa-slab-one";
+  float: right;
+}
+
+#logo {
+  display: inline-block;
+  width: 10%;
+}
+#logo img {
+  width: 100%;
+}
+
+#title-flex {
+  display: inline-block;
+  width: 88%;
+  padding: 0px;
+  margin: 0px;
+}
+#title-flex h1 {
+  font-size: 3em;
+  font-family: "alfa-slab-one";
+  color: #000;
+  letter-spacing: 2px;
+  padding: 0px 20px 0px 20px;
+}
+#title-flex h1 span {
+  color: grey;
+}
+#title-flex h2 {
+  font-family: "alfa-slab-one";
+  color: #fff;
+  background: #000;
+  padding: 1rem 0.5rem;
+  border-radius: 10px;
+  margin: 0px 10px;
+}
+#title-flex h4 {
+  font-family: "alfa-slab-one";
+  color: grey;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 0px 0px 0px 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 100%;
+  justify-content: center;
+  align-items: stretch;
+  padding-bottom: 20px;
+}
+.container .card.children {
+  width: 18%;
+  background: linear-gradient(0deg, grey, #fff);
+  box-shadow: 5px 5px 10px #000;
+}
+.container .card.children h3 {
+  color: #fff;
+  background: #000;
+  font-size: 1.5rem;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 10px;
+  margin: 20px 10px 10px 10px;
+}
+.container .card.children .box {
+  width: 50%;
+}
+.container .card.children .box img {
+  width: 100%;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  margin-left: 15px;
+}
+.container .card.children .box .text-box {
+  background: rgba(255, 0, 0, 0.6);
+  font-family: "alfa-slab-one";
+  color: #fff;
+  margin-left: 15px;
+  text-align: center;
+  width: 100%;
+}
+.container .card.children p {
+  padding: 0px 10px;
+  text-align: justify;
+  font-size: 1rem;
+}
+.container .card.children button {
+  background: #000;
+  font-family: "alfa-slab-one";
+  color: #fff;
+  border-radius: 15px;
+  padding: 10px 5px;
+  border: 0px;
+  text-align: right;
+  float: right;
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */
