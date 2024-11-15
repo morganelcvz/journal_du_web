@@ -66,6 +66,7 @@ body > span {
 .container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 2rem;
   width: 100%;
   justify-content: center;
@@ -73,7 +74,7 @@ body > span {
   padding-bottom: 20px;
 }
 .container .card.children {
-  width: 18%;
+  width: 18rem;
   background: linear-gradient(0deg, grey, #fff);
   box-shadow: 5px 5px 10px #000;
 }

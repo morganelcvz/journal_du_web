@@ -1,4 +1,5 @@
 @import "typo";
+@import "couleurs";
 
 body {
 
@@ -17,8 +18,7 @@ body {
     }
 
     >span {
-        background-color: black;
-        color: #fff;
+        @include: white-black;
         padding: 0px 1rem;
         font-family: "alfa-slab-one";
         float: right;
@@ -73,6 +73,7 @@ body {
 .container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 2rem;
     width: 100%;
     justify-content: center;
@@ -81,7 +82,7 @@ body {
 
 
     .card.children {
-        width: 18%;
+        width: 18rem;
         background: linear-gradient(0deg, grey, #fff);
         box-shadow: 5px 5px 10px #000;
 
